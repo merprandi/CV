@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Proyecto integrador</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="imagen">
+            <button class="botón" onclick="visualizar()">
+                <video id="presentación" src="Video presentación.mp4" type="video/mp4" controls style="display: none;">
+                    Su navegador no soporta el elemento video. Intente acceder al mismo con un navegador actualizado.
+                </video>
+                <img id="foto" src="Foto perfil.jpg" alt="Imagen del solicitante" /> 
+            </button>
+        </section>
+
+        <script src="javascript/funciones.js"></script>
+
+        <section class="texto">
+             <h1>Nombre: Martin Prandi</h1>
+             <h2 id="edad">Fecha de nacimiento: 08/08/1983</h2>
+             <h2 id="domicilio">Domicilio: Av. Dr. Ricardo Balbín 963</h2>
+             <h2 id="teléfono">Teléfono: 011-27496415</h2>
+             <h2 id="mail">Correo electrónico: mer_prandi@hotmail.com</h2>
+        </section>
+    </header>
+    <nav>
+        <h3 id="experiencia">Experiencia laboral</h3>
+        <ul>
+         <li id="empleo">Grupo Serin
+            <div id="sección">
+                <h4 id="serin">Responsable de stock y abastecimiento</h4>
+                <p id="serin">2017 - actual:</p>
+                   <ul>
+                       <li>Manejo de inventario en todas las sucursales de Buenos Aires</li>
+                       <li>Postventa</li>
+                       <li>Mejora continua</li>
+                       <li>Compras y abastecimiento</li>
+                   </ul> 
+            </div>
+             
+         </li>
+         <li id="empleo">DHL
+            <div id="sección">
+                <h4 id="dhl">Coordinador de operaciones</h4>
+                <p id="dhl">2007 - 2012</p>
+                    <ul>
+                        <li>Supervisión del personal a cargo (30 personas aprox)</li>
+                        <li>Gestión entre las diversas áreas (recepción/armado de pedidos/despacho)</li>
+                        <li>Inventario</li>
+                        <li>Mejora contínua</li>
+                    </ul>
+            </div>
+         </li>
+         <li id="empleo">Vihamij B.V.
+            <div id="sección">
+                <h4 id="vihamij">Operario general de depósito</h4>
+                <p id="vihamij">2005 - 2007</p>
+                  <ul>
+                     <li>Diversas tareas generales del depósito (armado de pedidos, carga y descarga)</li>
+                  </ul>
+            </div>
+         </li>
+      </ul>
+
+     <h3 id="estudios">Estudios</h3>
+      <ul>
+         <li id="estudio"><h4><a href="http://www.uno.edu.ar/" target="_blank">Universidad Nacional del Oeste</a></h4>
+            <p>Actualmente estoy etudiando la carrera de Licenciatura en informática</p>
+         </li>
+         <li id="estudio"><h4><a href="https://klmflightacademy.nl/" target="_blank">KLM Flight Academy</a></h4> 
+             <p>Académia de piloto comercial en Holanda. 
+                Completé toda la parte teórica y realicé grán parte de la parte práctica 
+                pero debido a problemas personales no pude completar el estudio</p>
+         </li>
+         <li id="estudio"><h4><a href="https://kandinskycollege.nl/" target="_blank">Kandinsky College</a></h4> 
+            <p>Secundaria en Holanda completada con nivel superior que habilita para inscripciones a carreras universitarias</p>
+         </li>
+      </ul>
+
+      <h3 id="aptitudes">Aptitudes</h3>
+        <ul>
+            <li id="aptitud">Paquete Office</li>
+            <li id="aptitud">Inglés avanzado</li>
+            <li id="aptitud">Holandés avanzado</li>
+            <li id="aptitud">C++</li>
+            <li id="aptitud">Java</li>
+        </ul>
+    </nav>
+    <footer>
+        <h3 id="biografía">Un poco más sobre mi</h3>
+        <p id="descripción">Me considero una persona tranquila y trabajadora. Siempre estoy en la búsqueda de conocimientos nuevos que puedan ayudar a mejorar mi desempeño profesional.</p>    
+    </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    background-color: lightskyblue;
+}
+
+header{    
+    margin-bottom: 40px;
+}
+
+section.imagen{
+    width: 40%;
+    height: 350px;
+    float: left;
+}
+
+section.texto{
+    width: 60%;
+    height: 350px;
+    float: left;
+    font-family: 'Figtree', sans-serif;
+    font-size: medium;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 2%;
+}
+
+#foto{
+    height: 80%;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#presentación{
+    height: 80%;
+    width: 80%;
+    margin-top: 20px;
+    float: left;
+    margin-left: 40px;
+}
+
+
+body,footer{
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    margin-left: 60px;
+    width: 90%;
+}
+
+#empleo{
+    margin-bottom: 30px;
+}
+
+#empleo:hover #sección{
+    display: block;
+}
+
+#sección{
+    display: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+.botón{
+    border: none;
+    cursor: pointer;
+}
+
+
+
